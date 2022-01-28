@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+    height: 100vh;
+    background-color: #d4e6fe;
+}
+
+.container {
+    width: 100%;
+    max-width: 698px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+
+.container .contact-row {
+    display: flex;
+    column-gap: 20px;
+}
+
+.container fieldset {
+    width: 100%;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container .contact-form fieldset input {
+
+}
+
+.container button {
+    background-color: blue;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    width: 140px;
+    line-height: 38px;
+    border-radius: 20px;
+}
+
+.container input {
+    margin: 10px;
+    padding: 20px;
+    width: 60%;
+    border-radius: 10px;
+    border: none;
+    background: rgb(231,233,254);
+    background: linear-gradient(169deg, rgba(231,233,254,1) 0%, rgba(164,176,250,1) 35%);
+}
